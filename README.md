@@ -6,28 +6,28 @@ An intelligent system that automates the evaluation of handwritten student answe
 
 ## 🚀 Features
 
-- ✍️ **Automated Script Evaluation**  
+- **Automated Script Evaluation**  
   Uses LLMs to compare student answers with model answers and generate contextual feedback.
 
-- 📸 **OCR Integration**  
+- **OCR Integration**  
   Extracts handwritten text from images using Google Cloud Vision API.
 
-- 📘 **Textbook Recommendation**  
+- **Textbook Recommendation**  
   Suggests relevant textbook pages based on semantic similarity with student answers.
 
-- ☁️ **Cloud Image Management**  
+- **Cloud Image Management**  
   Uploads and serves answer images using Google Cloud Storage.
 
-- 📊 **Performance Dashboard**  
+- **Performance Dashboard**  
   Visualizes student performance trends and feedback through interactive charts.
 
-- 📚 **Course & Question Management**  
+- **Course & Question Management**  
   Upload and manage questions, model answers, and textbook PDFs.
 
-- 🔁 **Re-evaluation Support**  
+- **Re-evaluation Support**  
   Allows re-analysis of answers if model answers or questions are updated.
 
-- 🧩 **RESTful API**  
+- **RESTful API**  
   Endpoints for answer upload, feedback retrieval, course setup, and history tracking.
 
 ---
@@ -102,6 +102,7 @@ POST /delete_answer – Delete an answer record
 
 🧪 Example Usage
 Upload an Answer
+
 curl -X POST "http://localhost:8000/upload" \
 -F "year=2024" \
 -F "usn=1RV20CS001" \
@@ -114,7 +115,8 @@ curl -X POST "http://localhost:8000/upload" \
 -F "image=@/path/to/answer.jpg"
 
 
-Add a Coursecurl -X POST "http://localhost:8000/add_course" \
+Add a Course 
+curl -X POST "http://localhost:8000/add_course" \
 -F "course_code=CS231AI" \
 -F "reference_textbook=Galvin OS" \
 -F "course_title=Operating Systems" \
@@ -122,10 +124,7 @@ Add a Coursecurl -X POST "http://localhost:8000/add_course" \
 
 🙌 Acknowledgements
 FastAPI
-
 Google Cloud Vision
-
 Groq LLMs
-
 Transformers by HuggingFace
 
