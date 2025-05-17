@@ -53,11 +53,14 @@ An intelligent system that automates the evaluation of handwritten student answe
 ```bash
 git clone https://github.com/yourusername/llm-script-feedback.git
 cd llm-script-feedback
+```
 
-2. Install Dependencies
+### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-3. Configure Environment
+### 3. Configure Environment
 Set the following environment variables:
 
 GOOGLE_APPLICATION_CREDENTIALS: Path to Google Cloud JSON key
@@ -66,7 +69,7 @@ MONGODB_URI: Your MongoDB connection string
 
 GROQ_API_KEY: Your Groq LLM API key
 
-4. Run the Backend Server
+### 4. Run the Backend Server
 
 uvicorn comparisons:app --reload
 🔗 API Endpoints
