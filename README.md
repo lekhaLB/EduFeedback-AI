@@ -124,7 +124,10 @@ curl -X POST "http://localhost:8000/add_course" \
 
 🙌 Acknowledgements
 FastAPI
+
 Google Cloud Vision
+
 Groq LLMs
+
 Transformers by HuggingFace
 
