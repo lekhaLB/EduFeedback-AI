@@ -123,6 +123,7 @@ curl -X POST "http://localhost:8000/add_course" \
 -F "image=@/path/to/textbook.pdf"
 
 🙌 Acknowledgements
+
 FastAPI
 
 Google Cloud Vision
