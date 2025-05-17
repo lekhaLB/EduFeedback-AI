@@ -36,9 +36,13 @@ An intelligent system that automates the evaluation of handwritten student answe
 
 .
 ├── comparisons.py # FastAPI app: main API endpoints
+
 ├── embeddings.py # Embedding generation and semantic search
+
 ├── image_upload.py # Google Cloud Storage integration
+
 ├── ocr.py # OCR + LLM-based text correction
+
 ├── dashboard/ # (Optional) Dashboard frontend (e.g., Streamlit/React)
 
 
