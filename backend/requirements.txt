@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pymongo
+python-multipart
+pydantic[dotenv]
+groq
+google-cloud-vision
+pdfplumber
+transformers
+torch
+scipy
