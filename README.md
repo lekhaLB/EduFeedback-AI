@@ -34,7 +34,6 @@ An intelligent system that automates the evaluation of handwritten student answe
 
 ## 🗂️ Project Structure
 
-.
 ├── comparisons.py # FastAPI app: main API endpoints
 
 ├── embeddings.py # Embedding generation and semantic search
