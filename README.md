@@ -51,7 +51,7 @@ An intelligent system that automates the evaluation of handwritten student answe
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/llm-script-feedback.git
+git clone https://github.com/lekhaLB/llm-script-feedback.git
 cd llm-script-feedback
 ```
 
