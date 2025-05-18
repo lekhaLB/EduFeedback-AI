@@ -2,7 +2,7 @@ from google.cloud import vision
 import io
 
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\91805\Downloads\lofty-fragment-446614-e6-77075046a387.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"CREDENTIALS"
 
 from groq import Groq
 
