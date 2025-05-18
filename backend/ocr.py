@@ -7,7 +7,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\91805\Downloads\lofty-
 from groq import Groq
 
 # Replace "your_api_key" with your actual API key
-API_KEY = "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"
+API_KEY = "YOUR_API_KEY"
 
 # Initialize the Groq client with your API key
 client = Groq(api_key=API_KEY)
