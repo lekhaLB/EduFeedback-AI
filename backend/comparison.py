@@ -277,7 +277,7 @@ async def feedback(year: str = Form(...),
                    subdivision_number: str = Form(...),
                    score: int = Form(...),
                    image: UploadFile = File(...),):
-
+#Our main logic
     
 
 
@@ -292,7 +292,7 @@ async def feedback_img(year: str = Form(...),
                        score: int = Form(...),
                        image: UploadFile = File(...),):
 
-    
+#our logic for upload image
 
 
 @app.post("/upload_question")
