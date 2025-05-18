@@ -34,7 +34,7 @@ app.add_middleware(
 # Connect to MongoDB
 # Adjust connection string as needed
 client = MongoClient(
-    "mongodb+srv://rohanjsrinivas:Rohan1920!@userdata.iwn9c.mongodb.net/")
+    "CONNECTION_STRING")
 db = client["AutoFeedback"]  # Replace with your database name
 collection = db["answers"]  # Replace with your collection name
 collection2 = db["questions"]  # Replace with your collection name
