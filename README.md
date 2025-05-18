@@ -4,7 +4,7 @@ An intelligent system that automates the evaluation of handwritten student answe
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Automated Script Evaluation**  
   Uses LLMs to compare student answers with model answers and generate contextual feedback.
@@ -32,7 +32,7 @@ An intelligent system that automates the evaluation of handwritten student answe
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ├── comparisons.py # FastAPI app: main API endpoints
 
@@ -47,7 +47,7 @@ An intelligent system that automates the evaluation of handwritten student answe
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
@@ -73,24 +73,24 @@ GROQ_API_KEY: Your Groq LLM API key
 
 uvicorn comparisons:app --reload
 🔗 API Endpoints
-✍️ Answer Evaluation
+Answer Evaluation
 POST /upload – Upload a student answer image → receive feedback + recommended textbook pages
 
 POST /upload_img – Upload for comparison with perfect/imperfect answers → get improvement suggestions
 
-📘 Course & Question Management
+### ourse & Question Management
 POST /upload_question – Upload and store a new question (image → text)
 
 POST /add_course – Add a new course with reference textbook PDF
 
-👥 User & Answer History
+### User & Answer History
 POST /history – Retrieve a user's full feedback and answer history
 
 POST /reevaluate – Re-evaluate an answer after updates to model answers or question
 
 POST /delete_answer – Delete an answer record
 
-📄 File Descriptions
+### File Descriptions
 
 | File              | Description                                                          |
 | ----------------- | -------------------------------------------------------------------- |
@@ -100,7 +100,7 @@ POST /delete_answer – Delete an answer record
 | `image_upload.py` | Manages image storage on Google Cloud                                |
 | `dashboard/`      | (Optional) Frontend for analytics (Streamlit/React, etc.)            |
 
-🧪 Example Usage
+### Example Usage
 Upload an Answer
 
 curl -X POST "http://localhost:8000/upload" \
@@ -122,13 +122,4 @@ curl -X POST "http://localhost:8000/add_course" \
 -F "course_title=Operating Systems" \
 -F "image=@/path/to/textbook.pdf"
 
-🙌 Acknowledgements
-
-FastAPI
-
-Google Cloud Vision
-
-Groq LLMs
-
-Transformers by HuggingFace
 
