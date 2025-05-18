@@ -7,7 +7,7 @@ from pymongo import MongoClient
 # Connect to MongoDB
 # Adjust connection string as needed
 client = MongoClient(
-    "mongodb+srv://rohanjsrinivas:Rohan1920!@userdata.iwn9c.mongodb.net/")
+    "YOUR_CONNECTION_STRING")
 db = client["AutoFeedback"]  # Replace with your database name
 
 
